@@ -91,7 +91,7 @@ Through this project, I strengthened my understanding of core and advanced Power
 
 ## 📸 Dashboard Preview
 
-![Dashboard Preview](sample-dashboard-image.png)
+![Dashboard Preview](Business_360.png)
 
 > *A snapshot of the AtliQ Hardware Power BI Dashboard*
 
