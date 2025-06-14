@@ -1,95 +1,107 @@
 # 🏭 AtliQ Hardware Business Intelligence Dashboard
 
-Welcome to the **AtliQ Hardware Power BI Project**, a comprehensive business intelligence solution built to transform raw data into actionable insights for a global manufacturing leader.
+This project presents a dynamic and interactive Power BI dashboard built for **AtliQ Hardware**, a global company specializing in the sales of computers and computer accessories. The dashboard aims to provide data-driven insights for multiple departments across the organization, helping the business make smarter, faster decisions.
 
 🔗 [LinkedIn Post](https://www.linkedin.com/feed/update/urn:li:activity:7123534203882803200/)  
-📊 [Live Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZGQ5NmVmMWEtMmE0MS00MDA0LThkZGUtNGNkMWZlYTMxMzJlIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&pageName=ReportSection9b7d6c3c34b1c7da6cc1)
+📊 [View Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZGQ5NmVmMWEtMmE0MS00MDA0LThkZGUtNGNkMWZlYTMxMzJlIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&pageName=ReportSection9b7d6c3c34b1c7da6cc1)
 
 ---
 
-## 🚀 Project Overview
+## 🏢 About the Company
 
-**Client:** AtliQ Hardware  
-**Sector:** Global Hardware Manufacturing & Sales  
-**Challenge:** Excel was no longer sufficient for their growing data analytics needs  
-**Solution:** A holistic and dynamic Power BI dashboard catering to multiple business functions
+**AtliQ Hardware** is a rapidly growing global business that sells computers and computer accessories through three primary channels:
 
----
+- 🛒 **Retailers**  
+- 📦 **Distributors**  
+- 🔗 **Direct Sales**
 
-## 💡 Key Features
+Despite its international expansion, the company faced a major setback after launching stores in the United States based on intuition, limited surveys, and basic Excel analysis. Competitors, equipped with strong analytics teams, were making far more informed decisions.
 
-This dashboard provides department-specific insights while enabling cross-functional data-driven decision-making.
-
-### 🏠 Home Page
-- Central navigation hub for all report views
-- High-level overview for quick insights
-
-### 💵 Finance View
-- Analyze P&L statements, net sales trends
-- Identify top-performing products & customers
-
-### 🛒 Sales View
-- Evaluate net sales, gross margins, product/customer performance
-- Compare performance matrices across time
-
-### 📢 Marketing View
-- Monitor marketing KPIs with financial impact
-- Understand product and market segment contributions
-
-### 📦 Supply Chain View
-- Track forecast accuracy and error analysis (NET & ABS errors)
-- Breakdowns by customer and product
-
-### 🏢 Executive View
-- Strategic KPIs for C-level decision-makers
-- Zone and sub-zone level breakdowns
-
-### 🆘 Support Page
-- Helpful resources for end users
-
-### ℹ️ Info Page
-- Data refresh schedule and report versioning
+As a result, AtliQ Hardware decided to invest in building a dedicated **analytics team** to adopt a data-driven decision-making approach and maintain competitiveness in the hardware market.
 
 ---
 
-## 🛠️ Tools & Technologies
+## ❗ Problem Statement
 
-- **Power BI**: For dashboard development and publishing
-- **SQL**: For querying and preparing data models
-- **Excel**: For pre-processing and validations
-- **DAX Studio**: For advanced DAX function optimization
+Due to lack of advanced data analytics capabilities, AtliQ Hardware suffered a significant loss in its US market expansion. The leadership team realized that **relying on intuition and spreadsheets was no longer viable** in a competitive, data-driven industry.
+
+**The objective of this project** was to:
+
+- Build a centralized and interactive analytics dashboard using Power BI  
+- Provide detailed, role-specific insights for departments including Sales, Finance, Marketing, Supply Chain, and Executives  
+- Empower the company to make **smarter, faster, and data-backed decisions**
+
+---
+
+## 🧠 Power BI Techniques Learned
+
+Through this project, I strengthened my understanding of core and advanced Power BI concepts:
+
+- ✅ Data validation techniques  
+- 📅 Development of date tables using **M Language**  
+- 🔗 Snowflake-style **Data Modeling**  
+- 🧮 Creating **Calculated Columns** and **Measures** using DAX  
+- 📝 **Dynamic Titles** based on applied filters  
+- 🔄 Bookmarking to **switch between visuals**  
+- 🎨 **Conditional Formatting** with icons and background color  
+- 🔘 Page navigation using **buttons**  
+- ☁️ Publishing reports to **Power BI Service**
 
 ---
 
-## 📚 Business Acumen & DAX Mastery
+## 🧰 Tools & Technologies
 
-This project went beyond visuals and KPIs — it sharpened both **business understanding** and **technical skills**, including:
-
-- KPIs like: `Net Sales`, `Gross Margin`, `Net Profit %`
-- DAX Functions Used:
-  - `CALCULATE()`
-  - `DIVIDE()`
-  - `FILTER()`
-  - `ALLSELECTED()`
-  - `REMOVEFILTERS()`
+- **Power BI Desktop**
+- **Power BI Service**
+- **DAX & M Language**
+- **MySQL** (as data source)
+- **DAX Studio**
+- **Excel** (for pre-validation)
 
 ---
+
+## 🧭 Step-by-Step Process
+
+### 1️⃣ Importing Data into Power BI
+- Connected to a **MySQL database** by providing credentials
+- Imported all necessary tables for building the report
+
+### 2️⃣ Data Modeling
+- Employed a **Snowflake Schema** for a well-structured data model
+- Established proper relationships between fact and dimension tables
+- Created **Date Table** using M Language for time-based analysis
+
+### 3️⃣ Dashboard Design & Development
+- Used provided mock-ups as a visual reference
+- Created calculated columns and DAX measures as required
+- Designed department-specific views to serve:
+  - Finance
+  - Sales
+  - Marketing
+  - Supply Chain
+  - Executives
+
+### 4️⃣ Power BI Features Implemented
+- Navigation between pages using buttons
+- Applied dynamic filtering, conditional formatting, and bookmarks
+- Added a support page for help resources
+- Published and shared via **Power BI Service**
+
+---
+
+## 📸 Dashboard Preview
+
+![Dashboard Preview](sample-dashboard-image.png)
+
+> *A snapshot of the AtliQ Hardware Power BI Dashboard*
+
+---
+
 
 ## 📎 Useful Links
 
-- 🔗 [LinkedIn Post](https://www.linkedin.com/feed/update/urn:li:activity:7123534203882803200/)
-- 📊 [View Dashboard Live](https://app.powerbi.com/view?r=eyJrIjoiZGQ5NmVmMWEtMmE0MS00MDA0LThkZGUtNGNkMWZlYTMxMzJlIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&pageName=ReportSection9b7d6c3c34b1c7da6cc1)
-
----
-
-## 📌 How to Use
-
-1. Clone or download the repository
-2. Open Power BI Desktop
-3. Connect to the provided data model or dataset (if included)
-4. Explore the reports using filters, slicers, and navigation buttons
-
-> _Note: Due to confidentiality, actual data files are not included in this repository. Dummy data may be provided for demonstration._
+- 🔗 [LinkedIn Project Post](https://www.linkedin.com/feed/update/urn:li:activity:7123534203882803200/)
+- 📊 [Live Dashboard on Power BI](https://app.powerbi.com/view?r=eyJrIjoiZGQ5NmVmMWEtMmE0MS00MDA0LThkZGUtNGNkMWZlYTMxMzJlIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&pageName=ReportSection9b7d6c3c34b1c7da6cc1)
 
 ---
 
